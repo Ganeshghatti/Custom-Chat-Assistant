@@ -150,13 +150,22 @@ def chat(user_input, company_id, conversation_history=None):
         
         # Create embedding for the user query
         query_embedding = embeddings.embed_query(user_input)
-        print(f"Query embedding created for user input.")
         
-        # Retrieve relevant context based on the user query
-        docs = vector_store.similarity_search_by_vector(query_embedding, k=3)
+        # Retrieve relevant context based on the user query with similarity scores
+        docs = vector_store.similarity_search_with_score(user_input, k=3)
+        
+        # Check if we have any relevant documents (using a threshold)
+        similarity_threshold = 1.25  # Adjust this threshold as needed (lower = more strict)
         print(f"docs {docs}")
-        context = "\n".join([doc.page_content for doc in docs])
-        print(f"Retrieved {len(docs)} documents for context.")
+        print(f"similarity_threshold {similarity_threshold}")
+        
+        relevant_docs = [doc for doc, score in docs if score <= similarity_threshold]
+    
+        if not relevant_docs:
+            return f"I'm sorry, but I don't have enough information to answer that question. I'm a {company_name} assistant and can only provide information about {company_name}'s products, services, and company details. Could you ask something related to {company_name}?"
+        
+        # Extract context from relevant documents
+        context = "\n".join([doc.page_content for doc in relevant_docs])
         
         # Format conversation history for context
         history_text = ""
@@ -197,10 +206,8 @@ def chat(user_input, company_id, conversation_history=None):
             "input": user_input
         })
         
-        print(f"AI response generated successfully.")
         return result
     except Exception as e:
-        print(f"Error processing request: {str(e)}")
         return f"Error processing request: {str(e)}"
 
 def generate_unique_suffix():
