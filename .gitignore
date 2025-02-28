@@ -1,0 +1,6 @@
+.env
+venv/
+social_hardware_info/
+chroma_langchain_db/
+
+__pycache__/
