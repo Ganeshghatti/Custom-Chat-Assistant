@@ -1,0 +1,93 @@
+﻿Company Name : Social Hardware International
+
+
+Tagline- 
+Building immersive, AR-powered telerobotic systems for hazardous operations.
+
+
+Overview-
+Founded in 2017, Social Hardware is a Bengaluru-based startup dedicated to enhancing and protecting lives through innovative technology. Initially focused on assistive devices for underserved communities, the company gained national attention in 2021 with its collaboration with Cadbury Celebrations for the #MyFirstRakhi campaign, providing prostheses that enabled children with upper limb differences to fully engage in the Raksha Bandhan tradition. The prostheses, which offered a sense of touch, were provided at no cost, highlighting Social Hardware’s commitment to inclusivity. The campaign garnered widespread attention, reaching 2.7 crore views on YouTube, and was praised for promoting inclusivity in cultural practices, marking a significant step in making assistive technology more accessible and integrated into cultural traditions in India. Building on its expertise in bionics and prosthetics, the company expanded into field robotics, developing the Eclipse Remote Systems—teleoperated platforms designed for high-risk tasks like bomb disposal and search and rescue. Featuring immersive augmented reality (AR) controls, these systems ensure seamless human-machine interaction, allowing operators to perform hazardous tasks with precision and safety from a distance. Social Hardware is actively seeking industry partners to co-develop new models in the Eclipse Series—each crafted to address specialized needs in high-risk sectors. Organizations interested in exploring how Social Hardware’s Eclipse Series can transform their approach to safety and efficiency are invited to schedule a demo or discuss potential collaborations.
+Industry- Robotics Engineering
+Specialties
+3D Printing, Robotics, Engineering, Wearable Tech, Additive Manufacturing, Autodesk Fusion 360, CAD, CAM, Design, Hardware, Research & Development, defence, IOT, and ML
+
+
+Product- 
+Eclipse is a next-generation XR-controlled telerobotics system, designed for hazardous environments. It allows operators to perform complex tasks remotely, ensuring safety and precision during high-risk missions.
+Key Features:
+1. Immersive XR Control: Experience real-time control of the Eclipse robots through an extended reality interface, allowing for high precision in delicate operations.
+2. Modular Tool Attachments: Our robots come with adaptable tools for various applications, including disarming explosives and cutting debris.
+3. Mesh Network Communication: Advanced mesh networking enables operation without a direct line of sight, ensuring reliable communication in confined spaces.
+Eclipse aims to protect workers in hazardous environments. By reducing human exposure, we enhance safety protocols and enable quicker responses to potential threats.
+Technical Specifications
+* Data Security: AES-256 encryption of all sensor data and robot control commands.
+* Battery Type: LiFePO4
+* Battery Capacity: 26.5V, 24Ah
+* Battery Run Time: 2 hours of continuous operation
+* Battery Charge Time: 3 hours for full charge
+* HMD Model: Oculus Quest 3
+* HMD Field of View: 110 degrees
+Customer Service
+* Customizable upgrades, tool attachments, and sensor modules.
+* Maintenance contracts and spare parts available.
+* Comprehensive training offered for operation and maintenance.
+* RaaS model available with 6-month minimum commitment.
+
+
+Contact
+Website- https://www.socialhardware.in/
+Email - sh.lab@socialhardware.co.in , info@socialhardware.in 
+Phone- +91 9731436520
+
+
+
+
+
+
+
+
+________________
+
+
+
+
+
+
+
+
+Company Background
+At Social Hardware, we specialise in building advanced robotic systems tailored for high-risk operations in hazardous environments.
+
+To give you a quick background on our company, Social Hardware was founded in 2017, we’re registered with the Department for Promotion of Industry and Internal Trade and we’re MSME certified.
+
+Today, we operate from three locations. In Bengaluru, we have a 4,400 sq. ft. R&D lab focused on robotic operating systems and digital manufacturing. And in Gandhinagar, we have a 4,000 sq. ft. facility dedicated to parts manufacturing and PCB production, and in Hebbal we have our corporate office.
+We’re also ISO 9001:2015 certified for quality management and ISO 10218-1:2011 certified for meeting global safety standards for industrial robots.
+Product Overview
+Regarding our Eclipse robotic systems themselves:
+* They are certified to operate in temperatures ranging from -10°C to +50°C.
+* They meet IP57 standards, ensuring they’re protected against dust and water exposure, as well as EMI/EMC standard compliance and safety certification for hazardous material handling.
+* Over 70% of our components are developed in-house, which lets us maintain strict quality control while also supporting the Make in India initiative, which we’re very passionate about.
+* For manufacturing, we use a combination of steel and aluminum alloys enhanced with 3D-printed carbon fiber components to balance weight with durability.
+The system also features dual 6-DOF robotic arms—which is something that none of our direct competitors are currently offering—along with 10-DOF bionic hands for precision tasks. In addition to this, we also have a modular, hot-swappable tool system that allows the bionic hands to be quickly swapped with bespoke tools designed for industry specific tasks without powering down the system.
+
+We also offer the option of immersive extended reality (XR) control through a VR headset, which significantly enhances situational awareness. This system allows the operator to experience the robot's environment directly from its perspective with a 110° field of view, making it feel like a seamless extension of their own body. 
+We’ve coupled this with a gesture-based control system that makes it incredibly intuitive and easy for operators to interact with and manipulate the robot's surroundings in a natural way, as the robot is programmed to remotely mimic their actions in near real-time.
+Currently, the system offers 120 minutes of continuous battery life, a payload capacity of 1.45 kg per arm—customizable up to 5 kg—and a wireless range of 300 meters between communication devices, or up to 1 kilometer with a wired connection, both secured using AES-256 encryption with under 5ms latency.
+
+We also have inhouse capability to customize the robots to your specific industry requirements, which includes tool attachments and sensor modules.
+— Work in Progress Below —
+Regarding mobility, the robot has vulcanised rubber tank tracks capable of traversing uneven terrain with up to a 30° incline at a maximum speed of 2.8 m/s. 
+The stow dimensions of the bot are less than 1 metre squared, making storage convenient. 
+Maintenance contracts and spare parts are available.
+
+Comprehensive training is offered for operation and maintenance.
+
+A RaaS model is also available with 6-month minimum commitment.
+
+
+What does Social Hardware do?
+Social Hardware International Pvt Ltd is revolutionizing high-risk operations by developing advanced robotics and immersive control systems designed to protect human lives and enhance overall operational efficiency.
+Our flagship product, the Eclipse Series, is a line of teleoperated robotic platforms purpose-built for hazardous tasks such as bomb disposal, search and rescue, and dangerous industrial operations. Equipped with immersive extended reality (XR) controls, these robots enable operators to perform complex, precision-driven tasks safely from a distance, even in the most challenging environments.
+The core mission of the Eclipse Series is simple yet powerful: to save lives by removing humans from harm's way. These robots are engineered to take on tasks too dangerous for human intervention, reducing the risk of injury or fatality in high-stakes scenarios.
+Eclipse robots incorporate state-of-the-art technologies, including mesh networks and gesture-recognition, which allows for precise control even in environments without direct line of sight, such as collapsed buildings or confined spaces. The system’s modular, hot-swappable toolkits offer unparalleled mission versatility, enabling seamless adaptation to tasks like disarming explosives, clearing debris, and conducting life-saving rescue operations.
+Our technology serves critical industries, including defense, aerospace, manufacturing, and infrastructure, offering tailored solutions to enhance safety and operational efficiency in hazardous environments. By combining cutting-edge innovation with real-world reliability, Social Hardware is empowering industries to overcome the challenges of high-risk operations while keeping human lives out of danger.
