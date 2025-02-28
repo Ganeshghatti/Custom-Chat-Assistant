@@ -4,3 +4,7 @@ social_hardware_info/
 chroma_langchain_db/
 
 __pycache__/
+
+socialhardware.txt
+
+vector_stores/
