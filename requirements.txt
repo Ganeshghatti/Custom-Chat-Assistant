@@ -1,13 +1,11 @@
 langchain-groq
 langchain
 python-dotenv
-langchain-community 
+langchain-community
 flask
 flask-cors
 langchain-core
 chromadb
 sentence-transformers
-huggingface-hub
-sentence_transformers
-faiss-cpu
 langchain-huggingface
+pymongo

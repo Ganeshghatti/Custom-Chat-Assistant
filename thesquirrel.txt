@@ -1,0 +1,112 @@
+﻿Service Name:
+TheSquirrel Chatbot Service
+Website:
+chat.thesquirrel.site
+Contact Details:
+* Phone: +91 9449610077
+* Email: info@thesquirrel.site | hello@ganeshghatti.in
+Service Description:
+TheSquirrel provides custom chatbot solutions tailored to your company's information. The chatbot is integrated into your website and responds to user queries intelligently.
+Key Features:
+* Custom chatbot development based on company data
+* Website integration for seamless user interaction
+* Hosting and technical support included
+* 1-month free trial with a subscription model afterward
+* Cancel anytime before the first month ends with no charges
+Subscription Model:
+* After the 1-month free trial, a paid subscription model applies.
+* Pricing details can be obtained by contacting support.
+Support & Assistance:
+* Full technical support provided
+* Hosting and chatbot management handled by TheSquirrel
+
+
+Data Security & Privacy:
+Your data security is our top priority. We implement industry-standard encryption and follow best practices to ensure your customer conversations remain private and secure.
+* GDPR & compliance-ready
+* Secure data handling
+* No third-party access to sensitive information
+
+
+
+
+How the Trial Works:
+1. Sign up for FREE (No credit card required).
+2. Get a fully functional chatbot integrated into your website.
+3. Test it for 30 days with your customers.
+4. If you love it, continue with a paid plan. If not, cancel at no cost.
+
+
+Subscription Model:
+After the free trial, a subscription model applies. Pricing varies based on:
+* Monthly active users
+* Features required
+* Customization level
+* API access and third-party integrations
+
+
+Easy Integration with Your Business:
+* Website Embed – Add the chatbot widget to your site in minutes.
+* E-commerce Integration – Works with Shopify, WooCommerce, etc.
+* CRM & Helpdesk Support – Connect with popular tools like HubSpot & Zendesk.
+
+
+Custom Solutions for Enterprises
+For large enterprises, we offer tailored chatbot solutions with:
+* Custom API integrations
+* Dedicated servers & security enhancements
+* White-label chatbot branding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chatbot Workflow Automation:
+Our chatbot goes beyond answering queries—it can automate workflows, reducing manual tasks and improving efficiency.
+ Appointment Scheduling
+* Customers can book, reschedule, or cancel appointments directly through the chatbot.
+* Integration with Google Calendar, Outlook, and other scheduling tools.
+* Automated reminders to reduce no-shows.
+Order Tracking & Management
+* Customers can check order status, estimated delivery times, and shipment details.
+* Seamless integration with e-commerce platforms like Shopify, WooCommerce, and Magento.
+* Automate refund and return requests.
+Lead Capture & Follow-Up
+* Collect customer details through interactive conversations.
+* Automatically assign leads to the appropriate sales team.
+* Follow-up messages and nurturing sequences for potential customers.
+Internal Workflow Automation
+* Automate HR tasks like leave applications, payroll inquiries, and employee FAQs.
+* IT support ticket generation and troubleshooting guidance.
+* Internal knowledge base access for quick employee assistance.
+
+
+
+
+
+
+
+
+Chatbot Customization & Branding
+Make TheSquirrel Chatbot a true reflection of your brand with extensive customization options.
+Custom Chatbot UI
+* Modify the chatbot’s appearance to match your brand colors, fonts, and logo.
+* Widget customization options for size, position, and interaction styles.
+* Light and dark mode support.
+Chatbot Personality & Tone
+* Define the chatbot’s personality—formal, friendly, humorous, or professional.
+* Set predefined tone levels to match your brand voice.
+* Personalization options to address customers by name and provide contextual responses.
+Custom Conversation Flows
+* Design chatbot workflows that align with your customer journey.
+* Create unique response paths for different customer types (new users vs. returning customers).
+* Enable chatbot escalation to human agents based on specific triggers.
