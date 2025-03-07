@@ -20,4 +20,4 @@ VECTOR_STORE_DIR = "vector_stores"
 EMBEDDING_MODEL = "sentence-transformers/all-mpnet-base-v2"
 CHUNK_SIZE = 200
 CHUNK_OVERLAP = 50
-SIMILARITY_THRESHOLD = 1.25 
+SIMILARITY_THRESHOLD = 1.15

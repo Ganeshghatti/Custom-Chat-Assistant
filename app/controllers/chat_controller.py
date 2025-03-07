@@ -1,4 +1,6 @@
+from flask import Response, stream_with_context
 from app.utils.llm_utils import chat
+import json
 
 def process_chat(data):
     """Process a chat request"""
@@ -16,7 +18,15 @@ def process_chat(data):
     if len(conversation_history) > 10:
         conversation_history = conversation_history[-10:]
     
-    response = chat(user_input, company_id, conversation_history)
+    # Get the streaming generator
+    stream_generator = chat(user_input, company_id, conversation_history)
     
-    # Return the response
-    return {"response": response}, 200 
+    # Create a streaming response
+    def generate():
+        for chunk in stream_generator:
+            yield f"data: {json.dumps({'chunk': chunk})}\n\n"
+    
+    return Response(
+        stream_with_context(generate()),
+        mimetype='text/event-stream'
+    ) 

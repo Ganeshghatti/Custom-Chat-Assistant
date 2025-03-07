@@ -9,8 +9,8 @@ def chat_endpoint():
     data = request.json
     print(f"Chat endpoint called with data: {data}")
     
-    response, status_code = process_chat(data)
-    return jsonify(response), status_code
+    response = process_chat(data)
+    return response
 
 @chat_bp.route('/', methods=['GET'])
 def home():

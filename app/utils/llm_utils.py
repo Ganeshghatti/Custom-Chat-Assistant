@@ -1,31 +1,18 @@
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.schema.output_parser import StrOutputParser
-from langchain.agents import tool, create_react_agent, AgentExecutor
 from app.utils.vector_store_utils import get_vector_store, embeddings
-from app.utils.email_utils import send_email
 from app.config import LLM_MODEL, SIMILARITY_THRESHOLD
 
-# Initialize the LLM
-llm = ChatGroq(model=LLM_MODEL)
-
-@tool
-def send_message_to_admin(name: str, email: str, message: str, company_id: str = None):
-    """ Takes user's name, email and message and sends it to admin """
-    print(f"Sending message to admin with name {name}, email {email} and message {message}")
-    # Send email to admin
-    success = send_email(name, email, message, company_id)
-    
-    print(f"Success: {success}")
-    if success:
-        return f"Message sent to admin with name {name}, email {email} and message {message}"
-    else:
-        return f"Failed to send message to admin. Please try again later."
-
-tools = [send_message_to_admin]
+# Initialize the LLM with streaming enabled and specific parameters
+llm = ChatGroq(
+    model=LLM_MODEL,
+    streaming=True,
+    temperature=0.7,
+)
 
 def chat(user_input, company_id, conversation_history=None):
-    """Process a chat message and return a response"""
+    """Process a chat message and return a response generator for streaming"""
     print(f"Chat function called with user input: {user_input} and company ID: {company_id}")
     if conversation_history is None:
         conversation_history = []
@@ -51,6 +38,7 @@ def chat(user_input, company_id, conversation_history=None):
         # Extract context from relevant documents
         context = "\n".join([doc.page_content for doc in relevant_docs])
         
+        print(f"context {context}")
         # Format conversation history for context
         history_text = ""
         if conversation_history:
@@ -66,7 +54,9 @@ def chat(user_input, company_id, conversation_history=None):
         2. If asked about unrelated topics, politely redirect the conversation to {company_name}
         3. Use the provided context and conversation history to give accurate, helpful responses
         4. Be concise and professional in your responses
-        5. If the user wants to contact an admin or support team, use the send_message_to_admin tool. if arguments needed to send email aren't provided, then ask user to provide them.
+        5. CRITICAL: Your responses must be complete and meaningful. Always finish your thoughts and sentences.
+        6. Keep responses brief (under 200 tokens) but ensure they are complete and coherent.
+        7. Never end mid-sentence or with an incomplete thought.
         
         Use the following context to answer: {{context}}
         
@@ -84,14 +74,15 @@ def chat(user_input, company_id, conversation_history=None):
         # Create the chain with the updated prompt
         chain = prompt_template | llm | StrOutputParser()
         
-        # Get AI response with context and history
-        result = chain.invoke({
+        # Return the streaming generator
+        return chain.stream({
             "context": context,
             "history": history_text,
             "input": user_input,
             "company_id": company_id
         })
-        
-        return result
     except Exception as e:
-        return f"Error processing request: {str(e)}" 
+        # For errors, yield the error message as a single item
+        def error_generator():
+            yield f"Error processing request: {str(e)}"
+        return error_generator() 
